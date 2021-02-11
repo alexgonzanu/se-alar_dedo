@@ -82,9 +82,30 @@ main {
   transition: transform 1s;
 }
 
+.letra {
+    margin-left: 100px;
+    padding: 10px 15px;
+    margin-top: -55px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 600;
+    color: white;
+    background-color: #5f1b10;
+}
+
+.info-apartado {
+  border-left: 2px dotted white ;
+  padding-left: 30px;
+  margin-left: 30px;
+}
+
 .info-apartado div {
   display: flex;
-  padding-left: 60px;
+}
+
+.info-apartado div:first-of-type {
+  margin-bottom: 20px;
 }
 
 .info-apartado div:first-of-type {
@@ -121,6 +142,6 @@ main {
   visibility: hidden;
 }
 
-.info-apartado:hover .fa-check {
+.apartado:hover .fa-check {
   visibility: visible;
 }
