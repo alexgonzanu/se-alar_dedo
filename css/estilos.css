@@ -79,6 +79,7 @@ main {
   max-width: 100px;
   border-radius: 50%;
   border: 1px solid white;
+  transition: transform 1s;
 }
 
 .info-apartado div {
@@ -108,7 +109,6 @@ main {
 
 .apartado:hover .foto-perfil {
   transform: scaleX(-1);
-  transition: all 1s;
 }
 
 .info-apartado :last-of-type .fa-check {
