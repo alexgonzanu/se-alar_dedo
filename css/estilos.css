@@ -106,3 +106,7 @@ main {
   margin-left: 10px;
 }
 
+.apartado:hover .foto-perfil {
+  transform: scaleX(-1);
+}
+
